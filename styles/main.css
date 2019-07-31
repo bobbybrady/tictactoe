@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box {
+    height: 250px;
+    flex-basis: 30%;
+}
+
+.x {
+    font-size: 200px;
+    text-align: center;
+    color: red;
+    margin: 0 0 0 0;
+}
+
+.o {
+    font-size: 200px;
+    text-align: center;
+    color: blue;
+    margin: 0 0 0 0;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+#box--1 {
+    border-bottom: solid black 2px;
+    border-right: solid black 2px;
+}
+
+#box--2 {
+    border-bottom: solid black 2px;
+}
+
+#box--3 {
+    border-bottom: solid black 2px;
+    border-left: solid black 2px;
+}
+
+#box--4 {
+    border-bottom: solid black 2px;
+    border-right: solid black 2px;
+}
+
+#box--5 {
+    border-bottom: solid black 2px;
+}
+
+#box--6 {
+    border-bottom: solid black 2px;
+    border-left: solid black 2px;
+}
+
+#box--7 {
+    border-right: solid black 2px;
+}
+
+#box--8 {
+}
+
+#box--9 {
+    border-left: solid black 2px;
+}
+
+
+
+.red .hide {
+    visibility: hidden;
+    color: red;
+    opacity: .5;
+    font-size: 200px;
+    text-align: center;
+    
+    font-weight: bold;
+}
+
+.red:hover .hide {
+    visibility: visible;
+    
+
+}
